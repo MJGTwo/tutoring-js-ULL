@@ -4,7 +4,7 @@
 
 Linked Lists are an important foundation to data structures due to the array of examples contained inside of them. In this exercise, we will go into a variation on the linked list, known as a Unrolled Linked List. An Unrolled Linked List (ULL) consists of two data structures: a node, and the list containing the node data structure. The core difference between a ULL and a standard linked-list lies within the Node Class, which contains an array of values and a variable saying how many elements are in that array. Below is a diagram of a ULL that is 3 nodes long and contains, in order, arrays of 3, 2 and 3, length.
 
-![an unrolled linked list, containing three nodes. Each node can have 4 elements and the 3 nodes have the following elements: 1-3, 4-5, and 6-8](./assets/Unrolled_linked_lists.png)
+![an unrolled linked list, containing three nodes. Each node can have 4 elements and the 3 nodes have the following elements: 1-3, 4-5, and 6-8. Picture from Wikipedia](./assets/Unrolled_linked_lists.png)
 
 ## First Exercise Set
 
