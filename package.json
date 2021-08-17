@@ -1,0 +1,25 @@
+{
+  "name": "tutoring",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=14"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/MJGTwo/tutoring-js.git",
+  "author": "MJGTwo <gardner.j.michael@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
+  }
+}
