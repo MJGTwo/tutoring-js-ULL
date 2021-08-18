@@ -11,6 +11,7 @@
   "type": "module",
   "scripts": {
     "start": "node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js",
     "test": "jest"
   },
   "dependencies": {
@@ -19,7 +20,9 @@
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
+    "babel-cli": "^6.26.0",
     "babel-jest": "^27.0.6",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
   }
 }
