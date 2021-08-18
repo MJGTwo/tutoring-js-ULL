@@ -14,8 +14,11 @@ export class Node {
   #count = 0;
   #next = null;
   #prev = null;
+  #valueLimit = ARRAYSIZE;
 
-  constructor() {}
+  constructor(valueLimit = ARRAYSIZE) {
+    this.#valueLimit = valueLimit;
+  }
 
   /**
    * built in function to print the node value
