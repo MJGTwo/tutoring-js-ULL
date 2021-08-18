@@ -1,6 +1,6 @@
-import { Node } from "./node.js";
+import { UnrolledLL } from "./unrolledLinkedList.js";
 
 export const greeter = () => {
-  const node = new Node();
+  const node = new UnrolledLL();
   return "Hello, World!";
 };
